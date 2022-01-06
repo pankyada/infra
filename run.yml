@@ -2,10 +2,10 @@
 - hosts: home
   gather_facts: no
 
-  pre_tasks:
-    - import_tasks: tasks/ssh_juggle_port.yml
-      tags:
-        - port
+#   pre_tasks:
+#     - import_tasks: tasks/ssh_juggle_port.yml
+#       tags:
+#         - port
 
 - hosts: home
   tasks:
